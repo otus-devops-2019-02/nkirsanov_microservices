@@ -1,4 +1,9 @@
 REPOSITORY                  TAG                 IMAGE ID            CREATED             SIZE
 nkirsanov/ubuntu-tmp-file   latest              82b971150e41        3 minutes ago       119MB
 ubuntu                      16.04               2a697363a870        2 weeks ago         119MB
-hello-world                 latest              fce289e99eb9        5 months ago        1.84kB
+hello-world                 latest              fce289e99eb9        5 months ago
+        1.84kB
+
+
+Image просто хранится на диске, как набор слоев, контейнер запускается на основе образа, добавляя слой для записи.Контейнер обладает сетевым адресом и списком открытх портов и точек монтирования.
+
