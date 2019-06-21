@@ -18,12 +18,13 @@ services:
     image: ${USERNAME}/post:${REDDIT_POST_VER}
     networks:
       - front_net
-      - back_net	
+      - back_net
   comment:
     build: ./comment
     image: ${USERNAME}/comment:${REDDIT_COMMENT_VER}
     networks:
       - front_net
+      - back_net
 
 volumes:
   post_db:
