@@ -1,0 +1,16 @@
+# Packer
+packer/variables.json
+
+# Terraform
+
+# Ansible
+
+# Vagrant & molecule
+.vagrant/
+*.pyc
+.molecule
+.cache
+.pytest_cache
+
+# Docker-compose
+.env
