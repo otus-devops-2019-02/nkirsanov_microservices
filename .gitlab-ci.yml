@@ -37,4 +37,3 @@ deploy_job:
     name: dev
     url: http://dev.example.com
 
-
