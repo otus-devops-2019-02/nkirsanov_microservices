@@ -39,5 +39,11 @@ Docker-4
 Задать имя можно при помощи переменной COMPOSE_PROJECT_NAME или ключом -p при запуске docker-compose
 
 
+Домашнее задание № 16 
+gitlab-ci
 
+Установлен Gitlab-CI
+В Gitlab-CI создан проект
+В Gitlab-CI созданы раннеры
+Изучены способы построения pipeline
 
